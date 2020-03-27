@@ -97,16 +97,25 @@ input{
     color: cornflowerblue;
 }
 .footer{
-    padding-top: 10px;
-    background-color: #8FBC8F;
     height: 50px;
     font-size: small;
 }
 .footer .left{
+    background-color: #8FBC8F;
+    height: 50px;
+    padding-top: 10px;
     width: 50%;
-    margin-left: 200px;
     float: left;
     display: block;
+    padding-left: 200px;
+}
+.footer .right{
+    background-color: #8FBC8F;
+    width: 50%;
+    height: 50px;
+    margin-left: 50%;
+    padding-top: 15px;
+    padding-left: 380px;
 }
 .footer ul li{
     display: inline;
